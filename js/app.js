@@ -41,7 +41,6 @@ $(document).ready(function () {
         $("#g2").html(Green2)
         background2()
         bottomLeft()
-
     });
 
     $('#B2').on("mousemove", function () {
@@ -49,12 +48,10 @@ $(document).ready(function () {
         $("#b2").html(Blue2);
         background2()
         bottomLeft()
-
     });
 
     /* Gradient */
     /* click button */
-
 
     $(".Left").click(function () {
         bottomLeft()
@@ -73,7 +70,6 @@ $(document).ready(function () {
     })
 
     /* functions */
-
     function bottomLeft() {
         $('.bottom').css({
             'background': "linear-gradient(to left, rgb(" + Red1 + "," + Green1 + "," + Blue1 + "), rgb(" + Red2 + "," + Green2 + "," + Blue2 + "))"
