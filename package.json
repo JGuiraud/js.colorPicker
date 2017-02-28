@@ -1,5 +1,5 @@
 {
-  "name": "sass.colorpicker",
+  "name": "public",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1",
-    "express.js": "^1.0.0",
     "jquery": "^3.1.1"
   }
 }
